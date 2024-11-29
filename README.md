@@ -58,7 +58,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
+        uses: pari-medical-holding-gmbh/notify-microsoft-teams@master
         if: always()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
@@ -91,7 +91,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
+        uses: pari-medical-holding-gmbh/notify-microsoft-teams@master
         if: always()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
@@ -102,7 +102,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
+        uses: pari-medical-holding-gmbh/notify-microsoft-teams@master
         if: always()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
@@ -114,7 +114,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
+        uses: pari-medical-holding-gmbh/notify-microsoft-teams@master
         if: always()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
@@ -146,7 +146,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
+        uses: pari-medical-holding-gmbh/notify-microsoft-teams@master
         if: failure()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
